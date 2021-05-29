@@ -1,0 +1,28 @@
+{
+  "name": "wiktionary-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "immutable": "^4.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.0",
+    "@types/cheerio": "^0.22.29"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plygrynd-jynkyrd/wiktionary-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plygrynd-jynkyrd/wiktionary-parser/issues"
+  },
+  "homepage": "https://github.com/plygrynd-jynkyrd/wiktionary-parser#readme"
+}
