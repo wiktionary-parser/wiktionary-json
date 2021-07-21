@@ -1,18 +1,25 @@
 {
-  "name": "wiktionary-parser",
-  "version": "1.0.0",
+  "name": "wiktionary-json",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.6",
-    "immutable": "^4.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.6"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.29",
+    "@types/faker": "^5.5.7",
+    "@types/jest": "^26.0.24",
     "@types/node": "^15.6.0",
-    "@types/cheerio": "^0.22.29"
+    "faker": "^5.5.3",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "tsc && node index.js --enable-source-maps",
+    "test": "tsc && jest"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 {
-  "include": ["*.ts"],
+  "include": ["*.ts", "src/index.ts", "src/findItemsById.ts", "src/models.ts", "src/parseContent.ts", "test/parseContent.test.ts", "test/findItemsById.test.ts"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
