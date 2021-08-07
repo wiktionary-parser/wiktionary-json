@@ -24,13 +24,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plygrynd-jynkyrd/wiktionary-parser.git"
+    "url": "git+https://github.com/leonardiwagner/wiktionary-json.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/plygrynd-jynkyrd/wiktionary-parser/issues"
+    "url": "https://github.com/leonardiwagner/wiktionary-json/issues"
   },
-  "homepage": "https://github.com/plygrynd-jynkyrd/wiktionary-parser#readme"
+  "homepage": "https://github.com/leonardiwagner/wiktionary-json#readme"
 }
