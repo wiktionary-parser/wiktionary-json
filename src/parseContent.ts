@@ -90,7 +90,7 @@ const parseContent = (content: Buffer) : Item[] => {
         _id: 1,
         _parentId: 0,
         _headingLevel: 1,
-        title: 'pool',
+        title: $('.mw-parser-output > *').find('h1.firstHeading').html() || '',
         children: [],
         elements: []
     }
@@ -98,4 +98,4 @@ const parseContent = (content: Buffer) : Item[] => {
     return parse(articleElements, [item], item)
 }
 
-export default parseContent;
+export = parseContent;

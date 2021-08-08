@@ -1,9 +1,10 @@
 {
   "name": "wiktionary-json",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "description": "",
-  "main": "./dist/parseContent.js",
-  "types": "./dist/parseContent.d.ts",
+  "main": "./dist/src/parseContent.js",
+  "types": "./dist/src/parseContent.d.ts",
+  "files": ["dist/"],
   "dependencies": {
     "cheerio": "^1.0.0-rc.6"
   },

@@ -8,11 +8,8 @@ Parse a wiktionary article to JSON
 ```js
 const wiktionaryJson = require('wiktionary-json')
 
-// download and read content from the internet
-const content = wiktionaryJson.parseFromUrl('https://en.wiktionary.org/wiki/plasma')
-
-// or parse content from already downloaded wiktionary page/html
-const content = wiktionaryJson.parserFromHTML('<html>...')
+// parse content from a full wiktionary page HTML
+const content = wiktionaryJson('<html>...')
 ```
 
 ### Parsed result structure
